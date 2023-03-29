@@ -1,0 +1,43 @@
+/* Write your CSS code here */
+
+.header-logo-img {
+  width: 200px;
+}
+
+.header-nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.header-nav-elements {
+  display: flex;
+  align-items: center;
+}
+
+.home {
+  color: #475569;
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 20px;
+}
+
+.header-button {
+  background-color: #0967d2;
+  border-width: 0;
+  color: white;
+  padding: 8px;
+  font-weight: 500;
+  border-radius: 5px;
+  cursor: pointer;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.list-container {
+  list-style-type: none;
+  display: flex;
+}

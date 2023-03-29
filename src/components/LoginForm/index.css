@@ -1,0 +1,71 @@
+/* Write your CSS code here */
+
+* {
+  font-family: 'Roboto';
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.login-img {
+  width: 50%;
+}
+
+.form-container {
+  background-color: white;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 10px;
+}
+
+.login-website-logo {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.username-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.username-label {
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.username-input {
+  background-color: #e2e8f0;
+  border-width: 0;
+  outline: none;
+  padding: 8px;
+  width: 250px;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+.submit-button {
+  background-color: #0b69ff;
+  width: 250px;
+  cursor: pointer;
+  border-width: 0px;
+  padding: 8px;
+  color: white;
+  border-radius: 5px;
+}

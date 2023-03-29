@@ -1,0 +1,39 @@
+/* Write your CSS code here */
+
+.home-bg-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.home-img {
+  width: 500px;
+}
+
+.home-heading {
+  font-size: 50px;
+  color: #1e293b;
+  margin-bottom: 20px;
+  padding-right: 400px;
+}
+
+.home-description {
+  color: #475569;
+  font-size: 25px;
+  padding-right: 140px;
+  margin-bottom: 20px;
+}
+
+.home-button {
+  background-color: #0967d2;
+  color: white;
+  border-width: 0;
+  padding: 8px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 5px;
+  cursor: pointer;
+}
