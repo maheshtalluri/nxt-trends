@@ -81,12 +81,12 @@ class LoginForm extends Component {
     const {password} = this.state
     return (
       <div className="username-container">
-        <label htmlFor="username" className="username-label">
+        <label htmlFor="password" className="username-label">
           PASSWORD
         </label>
         <input
           type="password"
-          id="username"
+          id="password"
           onChange={this.onPassword}
           value={password}
           placeholder="Password"
@@ -116,7 +116,7 @@ class LoginForm extends Component {
           <button type="submit" className="submit-button">
             Login
           </button>
-          {showErrorMsg && <p>{errorMsg}</p>}
+          {showErrorMsg && <p className="error-msg">{`*${errorMsg}`}</p>}
         </form>
       </div>
     )
